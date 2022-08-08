@@ -104,8 +104,7 @@ const setupEventListener = async () => {
 };
 
   const askContractToMintNft = async () => {
-    const CONTRACT_ADDRESS =
-      "0xbBa594504E45985316904fc4a5307109C0DeE614";
+    const CONTRACT_ADDRESS = "0xbBa594504E45985316904fc4a5307109C0DeE614";
     try {
       const { ethereum } = window;
       if (ethereum) {
