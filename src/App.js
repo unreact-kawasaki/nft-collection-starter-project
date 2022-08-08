@@ -10,6 +10,9 @@ const TWITTER_HANDLE = "kyuushuuweb3";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = "";
 const TOTAL_MINT_COUNT = 50;
+
+const CONTRACT_ADDRESS = "0xbBa594504E45985316904fc4a5307109C0DeE614";
+
 const App = () => {
   /*
    * ユーザーのウォレットアドレスを格納するために使用する状態変数を定義します。
@@ -104,7 +107,7 @@ const setupEventListener = async () => {
 };
 
   const askContractToMintNft = async () => {
-    const CONTRACT_ADDRESS = "0xbBa594504E45985316904fc4a5307109C0DeE614";
+
     try {
       const { ethereum } = window;
       if (ethereum) {
